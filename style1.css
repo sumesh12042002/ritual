@@ -1,0 +1,49 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;text-decoration: blue;}
+.content{display: flex;align-items: center;justify-content: space-between;margin: 8px 8px;padding: 12px 12px;}
+.wid{width: 33%;}
+.content .menu{font-size: 20px;font-weight: 200;float: left;color: rgb(27, 5, 110);}
+.content .menu :hover{cursor: pointer;}
+.content .rituals{font-size: 30px;font-weight: 800;color: rgb(27, 5, 110);}
+.content .rituals:hover{cursor: pointer;}
+.content .we {display: flex;float: right;text-align: right;color: rgb(27, 5, 110);}
+.content .we:hover{cursor: pointer;}
+.content .logo img{  width: 60px;display: flex;float: right;color: rgb(27, 5, 110);}
+.content .logo img:hover{cursor: pointer;}
+
+/* 
+#navbar{position: relative;}
+#navbar{position: sticky;display: flex;align-items: center;top: 0px;}
+#navbar .content{display: flex;} */
+
+/* home section styling */
+.h-primary{font-size: 60px;font-weight: 600;}
+#home{display: flex;flex-direction: column;padding: 3px 200px;justify-content: center;align-items: center;height: 700px;}
+#home::before{content: "";background:url('r1.jpg');background-repeat: no-repeat;background-size:100% 100% ; position: absolute;height: 100%;width: 100%;z-index: -1;opacity: 0.9;}
+#home h1{color: rgb(21, 3, 85);text-align: center;font-family: sans-serif;}
+ 
+
+.btn{padding: 6px 20px;border: 2px solid white;border-radius: 20px;background-color: rgb(22, 1, 80);color: white;margin: 17px;font-size: 1rem;cursor: pointer;height: 50px;}
+.btn:hover{background-color: rgb(252, 250, 252);color: rgb(11, 3, 80);}
+
+
+/* Clients section */
+#client-section{height: 24px;width: 13px;display: flex;}
+#client-section::before{content: "";position: absolute;background-color: rgb(250, 248, 245);width: 100%;height: 50%;z-index: -1;opacity: 0.7;}
+#clients{display: flex;justify-content: center;align-items: center;}
+#clients img{height: 100px;display: flex;}
+.client-item{padding: 10px;}
+.client-item h2{background-color: rgb(216, 213, 210);color: rgb(29, 2, 104);}
+.center{text-align: center;}
+
+#clients{align-items: center;}
+
+#client-sect h1{color: rgb(29, 2, 104);display: table-header-group; align-items: center;justify-content: space-between;}
+
+#client-sect{height: 24px;width: 13px;display: flex;}
+/* #client-sect::before{content: "";position: absolute;background-color: rgb(250, 248, 245);width: 100%;height: 50%;z-index: -1;opacity: 0.7;} */
+#clients{display: flex;justify-content: center;align-items: center;float: center;}
+#clients img{height: 100px;}
+.client-it{padding: 15px;margin: 10px;}
+.client-it h2{background-color: rgb(250, 248, 246);color: rgb(29, 2, 104);align-items: center;justify-content: center;}
+.center{text-align: center;}
+.secondary img{width: 1500px;height: 1000px;}
